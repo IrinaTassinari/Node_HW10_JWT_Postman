@@ -1,5 +1,3 @@
-//тестирование через Postman https://documenter.getpostman.com/view/53300232/2sBXijJXRe
-
 import express from "express";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken"

@@ -174,7 +174,7 @@ HW10/
 
 ## Postman Testing
 
-The comment at the top of [index.js:1](/c:/Users/irina_fsmug68/my_files/18072025/Node/HW/HW10/index.js#L1) includes a Postman Documenter link:
+API testing was performed with Postman. The Postman Documenter is available here:
 
 `https://documenter.getpostman.com/view/53300232/2sBXijJXRe`
 
