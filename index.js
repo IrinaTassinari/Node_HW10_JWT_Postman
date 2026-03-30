@@ -109,7 +109,14 @@ if (!user) {
   return res.status(404).json({ message: "User not found" });
 }
 
-user.email = newEmail;
+const existingUser = users.find((u) => u.email === newEmail && u.id !== req.user.id);
+
+if (existingUser) {
+  return res.status(400).json({
+    message: 'Email already in use'
+  });
+
+}
 
 return res.json({
   message: "Email updated successfully",
